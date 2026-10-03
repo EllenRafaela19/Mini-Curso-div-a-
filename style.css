@@ -1,0 +1,36 @@
+:root{
+    --vinho: #8a2c2c;
+    --verdemusgo:#003603;
+    --fundo:#dbd578;
+    --texto:#000000;
+    --link: #8a93e5;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: var(--fundo);
+    color: var(--texto);
+}
+
+h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--link);
+}
+
+a:hover {
+    color: var(--verdemusgo)
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-itens: center;
+    padding: 0 50px;
+    background: white;
+}
+
